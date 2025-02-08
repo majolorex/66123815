@@ -1,0 +1,44 @@
+/* ตั้งค่าสไตล์พื้นฐาน */
+body {
+    font-family: "TH Sarabun New", sans-serif;
+    background-color: #FAE5D3; /* สีพีชอ่อน ให้ความอบอุ่น */
+    color: #5A3E36; /* สีน้ำตาลเข้ม คลาสสิก */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* กำหนดสไตล์ของรูปภาพ */
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* สไตล์ของกล่องข้อมูล */
+.container {
+    background-color: #F5CBA7; /* โทนสีอบอุ่น */
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* สไตล์ของหัวข้อ */
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* สไตล์ของข้อความ */
+p {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+/* ทำให้ตัวหนามีสีเข้มขึ้น */
+strong {
+    color: #8B4513; /* สีน้ำตาลเข้ม */
+}
