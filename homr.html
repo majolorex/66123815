@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - American Boy Style</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F5E1C8;
+            text-align: center;
+            color: #5A3E2B;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background: #FFF3E6;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        img {
+            width: 180px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 4px solid #A67C52;
+            transition: transform 0.3s ease-in-out;
+        }
+        img:hover {
+            transform: scale(1.1);
+        }
+        h1 {
+            font-size: 28px;
+            color: #8B5E3C;
+            animation: slideIn 1.5s ease-in-out;
+        }
+        p {
+            font-size: 18px;
+            color: #704214;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8B5E3C;
+            font-weight: bold;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #D2691E;
+            transform: scale(1.1);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="img/332586960_600250574804459_7894243192424732579_n.jpg" alt="รูปภาพของฉัน">
+        <h1>Welcome to My  Home</h1>
+        <p>นายญาณวุธ วันคำ</p>
+        
+        <nav>
+            <a href="index.html">About Me</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="career.html">Career</a>
+            <a href="address.html">address</a>
+            <a href="ambition.html">ambition</a>
+        </nav>
+    </div>
+</body>
+</html>
